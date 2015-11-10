@@ -2,7 +2,7 @@
 ====
 Google Captcha for the Eve Framework
 ====
-[![Build Status](https://api.travis-ci.org/eve-php/eve-plugin-captcha.png)](https://travis-ci.org/eve-php/eve-plugin-captcha)
+[![Build Status](https://api.travis-ci.org/eve-php/eve-plugin-captcha.png)](https://travis-ci.org/eve-php/eve-plugin-captcha) [![Latest Stable Version](https://poser.pugx.org/eve-php/eve-plugin-captcha/v/stable)](https://packagist.org/packages/eve-php/eve-plugin-captcha) [![Total Downloads](https://poser.pugx.org/eve-php/eve-plugin-captcha/downloads)](https://packagist.org/packages/eve-php/eve-plugin-captcha) [![Latest Unstable Version](https://poser.pugx.org/eve-php/eve-plugin-captcha/v/unstable)](https://packagist.org/packages/eve-php/eve-plugin-captcha) [![License](https://poser.pugx.org/eve-php/eve-plugin-captcha/license)](https://packagist.org/packages/eve-php/eve-plugin-captcha)
 ====
 
 - [Install](#install)
