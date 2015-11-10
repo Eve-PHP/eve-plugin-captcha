@@ -1,8 +1,8 @@
 {
-    "name": "eve-php/captcha",
+    "name": "eve-php/eve-plugin-captcha",
     "type": "plugin",
     "description": "Google Captcha Plugin for the Eve Framework",
-    "keywords": ["eden", "library"],
+    "keywords": ["eve", "plugin"],
     "homepage": "http://eve.openovate.com",
     "license": "MIT",
     "authors": [
@@ -17,6 +17,6 @@
 		"eden/curl": "4.*"
     },
     "autoload": {
-         "psr-4": { "Eve\\Captcha\\": "src/" }
+         "psr-4": { "Eve\\Plugin\\Captcha\\": "src/" }
     }
 }
