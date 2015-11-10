@@ -7,7 +7,7 @@
  * distributed with this package.
  */
 
-namespace Eve\Captcha;
+namespace Eve\Plugin\Captcha;
 
 /**
  * Exception Class

@@ -7,7 +7,7 @@
  * distributed with this package.
  */
 
-namespace Eve\Captcha;
+namespace Eve\Plugin\Captcha;
 
 use Eden\Registry\Index as Registry;
 
@@ -19,7 +19,7 @@ use Eden\Registry\Index as Registry;
  * @author   Christian Blanquera <cblanquera@openovate.com>
  * @standard PSR-2
  */
-class Plugin extends Base
+class Setup extends Base
 {
     /**
      * Main route method

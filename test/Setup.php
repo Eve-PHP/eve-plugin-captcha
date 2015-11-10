@@ -7,11 +7,11 @@
  * distributed with this package.
  */
 
-class Eve_Csrf_Plugin extends PHPUnit_Framework_TestCase
+class Eve_Plugin_Captcha_Setup extends PHPUnit_Framework_TestCase
 {
     public function testImport()
     {
-        $callback = Eve\Captcha\Plugin::i()->import('123', '321');
+        $callback = Eve\Plugin\Captcha\Setup::i()->import('123', '321');
 		
 		$this->assertTrue(is_callable($callback));
 		

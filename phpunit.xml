@@ -13,7 +13,7 @@
 >
   <testsuites>
     <testsuite name="Eve Captcha Plugin Test Suite">
-      <file>test/Plugin.php</file>
+      <file>test/Setup.php</file>
     </testsuite>
   </testsuites>
 

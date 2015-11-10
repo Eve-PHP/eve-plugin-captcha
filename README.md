@@ -1,8 +1,8 @@
-![logo](http://eden.openovate.com/assets/images/cloud-social.png) Eve Captcha
+![logo](http://eden.openovate.com/assets/images/cloud-social.png) Eve Captcha Plugin
 ====
 Google Captcha for the Eve Framework
 ====
-[![Build Status](https://api.travis-ci.org/eve-php/captcha.png)](https://travis-ci.org/eve-php/captcha)
+[![Build Status](https://api.travis-ci.org/eve-php/eve-plugin-captcha.png)](https://travis-ci.org/eve-php/eve-plugin-captcha)
 ====
 
 - [Install](#install)
@@ -13,7 +13,7 @@ Google Captcha for the Eve Framework
 <a name="install"></a>
 ## Install
 
-`composer install eve-php/captcha`
+`composer install eve-php/eve-plugin-captcha`
 
 ====
 
@@ -24,7 +24,7 @@ Google Captcha for the Eve Framework
 
 ```
 //CAPTCHA
-->add(Eve\Captcha\Plugin::i()->import('KEY', 'SECRET', '1234567890'))
+->add(Eve\Plugin\Captcha\Setup::i()->import('KEY', 'SECRET', '1234567890'))
 ```
 
  - `'KEY'` is the ID given by Google.
